@@ -1,0 +1,591 @@
+
+   
+    
+
+
+body{
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(1,20px);
+    position: relative;
+    left: 80%;
+    margin: 10px;
+    margin-top: 20px;
+    opacity: 0.6;
+    
+}
+.c:hover{
+    opacity: 1;
+}
+.spa{
+    background-color: blueviolet;
+    width: 1.5rem;
+    height: 1.5rem;
+    clip-path: circle();
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 110rem;
+    top: 0.2rem;
+    font-size: 12px;
+    z-index: -2;
+}
+.spa p{
+    position: relative;
+    bottom: 0.4rem;
+}
+
+.a{
+    position: absolute;
+    left: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.a input{
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+    
+}
+
+/* .a input:hover{
+    font-size: 15px;
+
+} */
+.a img{
+    position: absolute;
+    right: 170px;
+    top: 3px;
+    color: rgb(202, 173, 173);
+    opacity: 0.6;
+}
+
+
+
+.b{
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid black;
+    font-size: 30px;
+     
+}
+.b a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+}
+nav{
+    display: flex;
+    
+    width: 0rem;
+    position: relative;
+    left: 25%;
+    top: 80px;
+
+
+    
+}
+nav div{
+    display: grid;
+    grid-template-columns: repeat(3,8rem);
+    gap: 0rem;
+    width: 10rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blueviolet;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    position: relative;
+    top: 10rem;
+    height: 50rem;
+    font-size: 30px;
+    gap: 80px;
+}
+.first p{
+    color: rgba(63, 63, 63, 0.781);
+}
+.first a button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 15px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+.first a button:hover{
+    box-shadow: 0px -1px 5px 0px black;
+    position: relative;
+    bottom: 3px;
+   
+}
+
+
+.second{
+    position: relative;
+    top: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3,30rem);
+    justify-content: center;
+    gap: 5rem;
+    right: 0rem;
+    font-size: 20PX;
+}
+.zx{
+    position: relative;
+    left: 5rem;
+    bottom: 4.6rem;
+    /* width: clamp(35ch, 50%, 70ch); */
+}
+.third{
+    position: absolute;
+    display: flex;
+    gap: 1.5rem;
+    left: 10rem;
+    top: 90rem;
+    z-index: -1;
+    color: white;
+    
+    
+   
+    
+}
+.sdd{
+    display: flex;
+    gap: 20rem;
+}
+.ccv a:hover{
+    cursor: pointer;
+    zoom: 20px;
+}
+
+.gbb{
+    width: 32.5rem;
+    height: 42.7rem;
+    position: absolute;
+    left: 1.5rem;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.719),rgba(255, 255, 255, 0.116));
+    cursor: pointer;
+    
+}
+.gdd{
+    width: 32.5rem;
+    height: 42.7rem;
+    position: absolute;
+    left: 35.5rem;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.719),rgba(255, 255, 255, 0.116));
+}
+.gff{
+    width: 32.5rem;
+    height: 42.7rem;
+    position: absolute;
+    left: 69.5rem;
+    
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.719),rgba(255, 255, 255, 0.116));
+}
+.third img{
+    
+    background: black;
+}
+.mm{
+    position: relative;
+    bottom: 9rem;
+    font-size: 50px;
+    left: 1.4rem;
+}
+.third p{
+    font-size: 15px;
+    color: white;
+}
+.firstt{
+    position: relative;
+    top: 80rem;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgba(232, 240, 243, 0.699);
+    height: 10rem;
+    
+} 
+.second a .gtg{
+    width: 20rem;
+    height: 30rem;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+} 
+.forth{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 80rem;
+    text-align: center;
+    background-color: rgba(232, 240, 243, 0.699);
+    margin-top: 0px;
+    height: 37rem;
+}
+.ts{
+    background-color: white;
+    color: blueviolet;
+    position: sticky;
+    height: 28rem;
+    
+    
+}
+.ts p{
+    color: rgba(92, 92, 92, 0.507);
+}
+.fifth{
+    position: relative;
+    top: 90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+}
+.first button{
+    transition: all 0.3s cubic-bezier(.5,-1.17,.83,.42);
+}
+.first button:hover{
+    transform: scale(1.2);
+
+}
+.aws{
+    width: 0.2rem;
+    height: 0.2rem;
+    font-size: 40px;
+    clip-path: circle();
+    background-color: rgba(80, 80, 80, 0.459);
+    position: absolute;
+    right: 32.7rem;
+    bottom: 14.1rem;
+}
+.gen{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.rtr{
+    display: flex;
+    gap: 3px;
+}
+.fifth button{
+    width: 8rem;
+    height: 3rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fifth button:hover{
+    box-shadow: 0px -1px 5px 0px black;
+    position: relative;
+    bottom: 3px;
+}
+.fifth h1{
+    font-size: 3em;
+    position: relative;
+    top: 2.5rem;
+    color: blueviolet;
+}
+.rtr .pss{
+    color: rgba(128, 128, 128, 0.411);
+}
+.rtr p{
+    color: blueviolet;
+}
+.gen{
+    color: rgba(128, 128, 128, 0.425);
+}
+.fifth .lre{
+    color: rgba(128, 128, 128, 0.555);
+}
+.secondd{
+    position: relative;
+    top: 88rem;
+    text-align: center;
+    font-size: 1.6em;
+}
+footer{
+    position: relative;
+    top: 100rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: start;
+}
+footer .vc{
+    position: absolute;
+    right:31.6rem ;
+    
+}
+.zzx p{
+    position: relative;
+    left: 2rem;
+    top: 0.2rem;
+}
+.mnn{
+    display: flex;
+    gap: 7rem;
+    color: rgba(128, 128, 128, 0.781);
+}
+.shoe img{
+    background-color: aqua;
+    padding-right: 6rem;
+}   
+.sear{
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid rgba(131, 130, 130, 0.466);
+    border-radius: 4px;
+    margin: 0px;
+    width: 17rem;
+    
+}
+.butt{
+    height: 2.5rem;
+    width: 5rem;
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    right: 15.9rem;
+    top: 14.1rem;
+    border: none;
+    border-radius: 4px;
+}
+.shoe a{
+    text-decoration: none;
+    color: blueviolet;
+}    
+.shoe p{
+    color: rgba(128, 128, 128, 0.74);
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 35%;
+   top: 25rem;
+   gap: 5px;
+   color: rgba(128, 128, 128, 0.726);
+   
+   
+}
+.qqq{
+    position: relative;
+    top: 2.5px;
+    color: blueviolet;
+}
+@media only screen and (max-width: 576px){
+    nav{
+        display: none;
+    }
+   
+    
+    .a{
+      position: absolute;
+      
+      right: 16rem;
+      
+    }
+    header{
+        position: relative;
+        right: 3rem;
+        
+    }
+    .b {
+        position: relative;
+        top: 4rem;  
+    }
+    .c img{
+        position: relative;
+        right: 8rem;
+    }
+    
+   
+    .b{
+        position: relative;
+        right: 50rem;
+    }
+    span{
+        display: none;
+    }
+ 
+    .c{
+        position: relative;
+        
+        right: 10%;
+    }
+
+    .first p {
+        font-size: 15px;
+    }
+    .first img{
+        width: 8em;
+        position: relative;
+        left: 1rem;
+    }
+    .first{
+        height: 30rem;
+        margin: 0px;
+        width: 33.05rem;
+        position: relative;
+        
+        
+        
+    }
+    .ok{
+        position: relative;
+        right: 3rem;
+    }
+    
+    
+    .abs{
+        position: relative;
+        right: 33rem;
+        top: 10rem;
+       
+    }
+    .ads{
+        position: relative;
+        top: 20rem;
+        left: 2rem;
+    }
+    .ss{
+        position: relative;
+        top: rem;
+        left: 37rem;
+    }
+    .ccv{
+        position: relative;
+        right: 9rem;
+        bottom: 5rem;
+        color: black;
+
+}
+.sdd{
+    display: none;
+}
+.third{
+   
+    display: grid;
+    grid-template-rows: repeat(3,45rem);
+}
+.forth{
+    position: relative;
+    top: 150rem;
+}
+.firstt{
+    position: relative;
+    top: 175rem;
+    text-align: center;
+    left: 3rem;
+    
+}
+.forth{
+    background: none;
+}
+.ccv p{
+    color: black;
+}
+
+.ts{
+    position: relative;
+    top: 40rem;
+    
+    
+}
+.forth{
+    display: grid;
+}
+
+.secondd{
+    position: relative;
+    top: 250rem;
+}
+.fifth{
+    position: relative;
+    top: 250rem;
+    right: 1rem;
+    display: grid;
+    text-align: center;
+}
+.fifth img{
+    width: 25em;
+    height: 30rem;
+    position: relative;
+    left: 1rem;
+}
+.hola{
+    position: relative;
+    left: 1rem;
+}
+footer{
+    position: relative;
+    top: 260rem;
+    display: grid;
+    left: 3rem;
+}
+
+.zzx{
+    position: relative;
+    bottom: 10rem;
+}
+.foot{
+    position: relative;
+    top: -10rem;
+    left: -1rem;
+    width: 20rem;
+}
+.foot .qqq{
+    position: relative;
+    top: 1.1rem;
+    right: 11.5rem;
+}
+.mnn{
+    display: grid;
+    grid-template-rows: repeat(3,1rem);
+}
+.foot{
+    display: none;
+}
+.butt{
+    position: absolute;
+    right: 1.2rem;
+    bottom: 20rem;
+}
+.vc{
+    position: relative;
+    left: 10rem;
+
+}
+}

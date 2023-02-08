@@ -1,0 +1,376 @@
+body{
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+}
+header{
+    display: flex;
+    
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(1,20px);
+    position: relative;
+    left: 80%;
+    margin: 10px;
+    margin-top: 20px;
+    opacity: 0.6;
+    
+}
+.c:hover{
+    opacity: 1;
+}
+nav{
+    display: flex;
+    
+    width: 0rem;
+    position: relative;
+    left: 25%;
+    top: 80px;
+
+
+    
+}
+nav div{
+    display: grid;
+    grid-template-columns: repeat(3,8rem);
+    gap: 0rem;
+    width: 10rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blueviolet;
+}
+.a{
+    position: absolute;
+    left: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.a input{
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+    
+}
+/* .a input:hover{
+    font-size: 15px;
+
+} */
+.a img{
+    position: absolute;
+    right: 170px;
+    top: 3px;
+    color: rgb(202, 173, 173);
+    opacity: 0.6;
+}
+
+
+
+.b{
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid black;
+    font-size: 30px;
+     
+}
+.b a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+}
+.oss{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    position: relative;
+    top: 20rem;
+    left: 15rem;
+    
+    
+}
+.oss p{
+    width: clamp(40ch,50%,70ch);
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.623);
+}
+.oss h1{
+    font-size: 35px;
+}
+.doll{
+    color: blueviolet;
+    font-size: 30px;
+}
+.gge{
+    position: relative;
+    top: 2rem;
+}
+.ggr{
+    position: relative;
+    bottom: 2rem;
+}
+.firstt{
+    position: relative;
+    top: 40rem;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgba(232, 240, 243, 0.699);
+    height: 10rem;
+    
+}  
+.forth{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 40rem;
+    text-align: center;
+    background-color: rgba(232, 240, 243, 0.699);
+    margin-top: 0px;
+    height: 37rem;
+}
+.ts{
+    background-color: white;
+    color: blueviolet;
+    position: sticky;
+    height: 28rem;
+    
+    
+}
+.ts p{
+    
+    color: rgba(92, 92, 92, 0.507);
+}
+.mont{
+    position: relative;
+    top: 5rem;
+}
+.mont input{
+    
+    width: 2rem;
+    height: 2.5rem;
+    border: 1px solid rgba(107, 107, 107, 0.274);
+    border-radius: 3px;
+    text-align: center;
+
+}
+.mont button{
+    width: 2rem;
+    height: 2.9rem;
+    border: 1px solid rgba(137, 43, 226, 0.514);
+
+
+}
+.mont .tyo{
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    position: relative;
+    left: 0.3rem;
+}
+.mont .tu{
+    position: relative;
+    right: 0.9rem;
+}
+.mont button:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.sant button{
+    width: 10rem;
+    height: 3rem;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 7rem;
+}
+.sant button:hover{
+    box-shadow: 0px 1px 5px 1px black;
+    scale: 1.05;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    top: 45rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: start;
+}
+footer .vc{
+    position: absolute;
+    right:30.7rem ;
+    
+}
+.zzx p{
+    position: relative;
+    left: 2rem;
+    top: 0.2rem;
+}
+.mnn{
+    display: flex;
+    gap: 7rem;
+    color: rgba(128, 128, 128, 0.781);
+}
+.shoe img{
+    background-color: aqua;
+    padding-right: 6rem;
+}   
+.sear{
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid rgba(131, 130, 130, 0.466);
+    border-radius: 4px;
+    margin: 0px;
+    width: 17rem;
+    
+}
+.butt{
+    height: 2.5rem;
+    width: 5rem;
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    right: 15.05rem;
+    top: 14.15rem;
+    border: none;
+    border-radius: 4px;
+}
+.shoe a{
+    text-decoration: none;
+    color: blueviolet;
+}    
+.shoe p{
+    color: rgba(128, 128, 128, 0.74);
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 35%;
+   top: 25rem;
+   gap: 5px;
+   color: rgba(128, 128, 128, 0.726);
+   
+   
+}
+.qqq{
+    position: relative;
+    top: 2.5px;
+    color: blueviolet;
+}
+@media only screen and (max-width: 576px){
+    nav{
+        display: none;
+    }
+   
+    
+    .a{
+      position: absolute;
+      
+      right: 16rem;
+      
+    }
+    header{
+        position: relative;
+        right: 3rem;
+        
+    }
+    .b {
+        position: relative;
+        top: 4rem;  
+    }
+    .c img{
+        position: relative;
+        right: 8rem;
+    }
+    
+   
+    .b{
+        position: relative;
+        right: 50rem;
+    }
+    span{
+        display: none;
+    }
+ 
+    .c{
+        position: relative;
+        
+        right: 10%;
+    }
+    .oss{
+        display: grid;
+        position: relative;
+        left: 4rem;
+
+    }
+    .oss p{
+        width: clamp(35ch, 50%, 60ch);
+    }
+    .forth{
+        display: grid;
+    }
+    .oss img{
+        width: 80%;
+    }
+    .hola{
+        position: relative;
+        left: 1rem;
+    }
+    footer{
+        position: relative;
+        top: 100rem;
+        display: grid;
+        left: 3rem;
+    }
+    .vc{
+        position: relative;
+        left: -1rem;
+    }
+    .zzx{
+        position: relative;
+        bottom: 10rem;
+    }
+    .foot{
+        position: relative;
+        top: -10rem;
+        left: -1rem;
+        width: 20rem;
+    }
+    .foot .qqq{
+        position: relative;
+        top: 1.1rem;
+        right: 11.5rem;
+    }
+    .mnn{
+        display: grid;
+        grid-template-rows: repeat(3,1rem);
+    }
+    .foot{
+        display: none;
+    }
+    .butt{
+        position: absolute;
+        right: 1.2rem;
+        top: 14.1rem;
+    }
+    .vc{
+        position: relative;
+        left: 0.15rem;
+    
+    }
+    
+}

@@ -1,0 +1,278 @@
+body{
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(1,20px);
+    position: relative;
+    left: 80%;
+    margin: 10px;
+    margin-top: 20px;
+    opacity: 0.6;
+    
+}
+.c:hover{
+    opacity: 1;
+}
+
+
+.a{
+    position: absolute;
+    left: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.a input{
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+    
+}
+/* .a input:hover{
+    font-size: 15px;
+
+} */
+.a img{
+    position: absolute;
+    right: 170px;
+    top: 3px;
+    color: rgb(202, 173, 173);
+    opacity: 0.6;
+}
+.butt{
+    position: absolute;
+    left: 98rem;
+}
+
+
+
+.b{
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid black;
+    font-size: 30px;
+     
+}
+.b a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+}
+nav{
+    display: flex;
+    
+    width: 0rem;
+    position: relative;
+    left: 25%;
+    top: 80px;
+
+
+    
+}
+nav div{
+    display: grid;
+    grid-template-columns: repeat(3,8rem);
+    gap: 0rem;
+    width: 10rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blueviolet;
+}
+section{
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+section h1{
+    font-size: 70px;
+}
+section p{
+    font-size: 17px;
+    color: rgba(128, 128, 128, 0.575);
+}
+section button{
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+section button:hover{
+    box-shadow: 0px -1px 5px 0px black;
+    position: relative;
+    bottom: 3px;
+}
+footer{
+    position: relative;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: start;
+}
+footer .vc{
+    position: absolute;
+    right:31.5rem ;
+    
+}
+.zzx p{
+    position: relative;
+    left: 2rem;
+    top: 0.2rem;
+}
+.mnn{
+    display: flex;
+    gap: 7rem;
+    color: rgba(128, 128, 128, 0.781);
+}
+.shoe img{
+    background-color: aqua;
+    padding-right: 6rem;
+}   
+.sear{
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid rgba(131, 130, 130, 0.466);
+    border-radius: 4px;
+    margin: 0px;
+    width: 17rem;
+    
+}
+.butt{
+    height: 2.5rem;
+    width: 5rem;
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    right: 15.05rem;
+    top: 14.1rem;
+    border: none;
+    border-radius: 4px;
+}
+.shoe a{
+    text-decoration: none;
+    color: blueviolet;
+}    
+.shoe p{
+    color: rgba(128, 128, 128, 0.74);
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 35%;
+   top: 25rem;
+   gap: 5px;
+   color: rgba(128, 128, 128, 0.726);
+   
+   
+}
+.qqq{
+    position: relative;
+    top: 2.5px;
+    color: blueviolet;
+}
+@media only screen and (max-width: 576px){
+    nav{
+        display: none;
+    }
+   
+    
+    .a{
+      position: absolute;
+      
+      right: 16rem;
+      
+    }
+    header{
+        position: relative;
+        right: 3rem;
+        
+    }
+    .b {
+        position: relative;
+        top: 4rem;  
+    }
+    .c img{
+        position: relative;
+        right: 8rem;
+    }
+    
+   
+    .b{
+        position: relative;
+        right: 50rem;
+    }
+    span{
+        display: none;
+    }
+ 
+    .c{
+        position: relative;
+        
+        right: 10%;
+    }
+    .hola{
+        position: relative;
+        left: 1rem;
+    }
+    footer{
+        position: relative;
+        top: 20rem;
+        display: grid;
+        left: 3rem;
+    }
+    .vc{
+        position: relative;
+        left: -1rem;
+    }
+    .zzx{
+        position: relative;
+        bottom: 10rem;
+    }
+    .foot{
+        position: relative;
+        top: -10rem;
+        left: -1rem;
+        width: 20rem;
+    }
+    .foot .qqq{
+        position: relative;
+        top: 1.1rem;
+        right: 11.5rem;
+    }
+    .mnn{
+        display: grid;
+        grid-template-rows: repeat(3,1rem);
+    }
+    .foot{
+        display: none;
+    }
+    .butt{
+        position: absolute;
+        right: 1.2rem;
+        bottom: 20rem;
+    }
+    .vc{
+        position: relative;
+        left: 0.15rem;
+    
+    }
+    }
